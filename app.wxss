@@ -1,4 +1,13 @@
 /**app.wxss**/
+
+page {
+	height: 100%;
+	font-size: 32rpx;
+	line-height: 1.6;
+	background-color: #f8f8f8;
+	box-sizing: border-box;  
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -8,3 +17,13 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.clearfix::after {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: "";
+}
