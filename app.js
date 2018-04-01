@@ -5,7 +5,7 @@ App({
   globalData: {
     text: "123",
     userInfo: {},
-    // api请求接口
+    // api请求接口ƒ
     domain: "https://xxx.com/",
   },
   onHide: function() {

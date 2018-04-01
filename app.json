@@ -1,12 +1,38 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/classify/classify",
+    "pages/cart/cart",
+    "pages/user/user"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "快递帮",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color" : "#999",
+    "selectedColor" : "#479de6",
+    "borderStyle" : "white",
+    "backgroundColor" : "#fff",
+    "list" : [{
+      "text" : "主页",
+      "pagePath" : "pages/index/index"
+    },
+    {
+      "text" : "分类",
+      "pagePath" : "pages/classify/classify"
+    },
+    {
+      "text" : "购物车",
+      "pagePath" : "pages/cart/cart"
+    },
+    {
+      "text" : "我的空间",
+      "pagePath" : "pages/user/user"
+    }]
+  },
+  "debug" : false
 }

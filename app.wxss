@@ -1,4 +1,11 @@
 /**app.wxss**/
+/*
+ * 全局样式表
+ * 使用@import语句导入外联样式表,使用相对路径
+ * 注意导入wxss的顺序.
+*/
+
+@import "assets/styles/weui.wxss";
 
 page {
 	height: 100%;

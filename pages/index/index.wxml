@@ -7,6 +7,13 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <!-- <view class="features">
+    <button>快递帮</button>
+    <button>二手市场</button>
+    <button>外卖</button>
+    <button>更多</button>
+    <button></button>
+  </view> -->
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>

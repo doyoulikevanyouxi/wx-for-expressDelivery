@@ -27,7 +27,6 @@ Page({
 
   },
 
-
   bindViewTap: function() {
     
   }
