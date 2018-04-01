@@ -5,7 +5,7 @@ App({
   globalData: {
     text: "123",
     userInfo: {},
-    // api请求接口
+    // api请求接口ƒ
     domain: "https://xxx.com/",
   },
   onHide: function() {
@@ -49,14 +49,6 @@ App({
       success: function(res) {
         that.globalData.userInfo = res.userInfo;  //用户信息存入全局变量
         console.log(that.globalData.userInfo);
-        //此处保存用户信息,异步接口
-        // wx.setStorage({
-        //   key: "userInfo",
-        //   data: res.userInfo,
-        //   success: function() {
-        //     console.log("get userInfo success!")
-        //   }
-        // });
         util.loadingToast(false);
       },
       fail: function() {  //用户拒绝获取用户信息

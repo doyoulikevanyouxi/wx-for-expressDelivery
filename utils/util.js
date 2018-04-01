@@ -1,4 +1,3 @@
-
 /*   项目基本配置  */
 let util = {
   //通用loadingToast
