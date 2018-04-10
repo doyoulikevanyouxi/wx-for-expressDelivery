@@ -30,7 +30,9 @@ wx-for-expressDelivery/
 
 ##	License
 
-
+## Eslint
+   添加基于recommended的eslint.
+   后面考虑添加Airbnb代码规范
 
 ##  个人笔记
 1.思考下在app.js还是index.js处理用户登录和userInfo.
