@@ -1,9 +1,8 @@
 # wx-for-expressDelivery
 ## 项目说明:
 - 基于微信小程序开发的一款处理快递业务的类商城项目
-- 
 
-## 目录结构:
+## 目录结构::
 
 ```
 wx-for-expressDelivery/
@@ -28,13 +27,17 @@ wx-for-expressDelivery/
 	|- ...
 ```
 
-##	License
+##	License:
 
-## Eslint
+## Eslint:
    添加基于recommended的eslint.
    后面考虑添加Airbnb代码规范
 
-##  个人笔记
+## 添加jest测试:
+
+## 添加gulp打包:
+
+##  个人笔记:
 1.思考下在app.js还是index.js处理用户登录和userInfo.
 2.index.js 如何获取 app.js 的全局变量.
 3.注意在app.js中不能调用this.setData()函数,用this.global.userInfo = res.userInfo. 或者用缓存
