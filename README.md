@@ -29,12 +29,18 @@ wx-for-expressDelivery/
 
 ##	License:
 
+## 如何解决微信小程序无package.json的问题?暂时用全局安装
 ## Eslint:
+   npm install -g eslint
    添加基于recommended的eslint.
    后面考虑添加Airbnb代码规范
 
-## 添加jest测试:
+## CSSlint:
+   npm install -g csslint
+   添加css代码规范
 
+## 添加jest测试:
+   npm install -g jest
 ## 添加gulp打包:
 
 ##  个人笔记:
