@@ -48,7 +48,8 @@ App({
       encryptedData: true,
       success: function(res) {
         // 用户信息存入全局变量
-        that.globalData.userInfo = res.userInfo;  
+        that.globalData.userInfo = res.userInfo;
+        // eslint-disable-next-line
         console.log(that.globalData.userInfo);
         util.loadingToast(false);
       },
@@ -87,14 +88,5 @@ App({
     };
     // util.sendAjax(config);
   }
-
 });
-
 module.exports = getApp();
-
-
-
-
-
-
-
