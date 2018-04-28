@@ -112,9 +112,14 @@ let util = {
     // eslint-disable-next-line
     return newobj;
   },
+  // 获取用户位置(需要用户授权)
+  getOrChooseLocation: function() {
+    let that = this;
+    
+  },
 
   // 替换中文标点为英文标点
-  changeMarkType : function(s) {
+  changeMarkType: function(s) {
     s=s.replace(/：/g, ":");  
     s=s.replace(/。/g, ".");  
     s=s.replace(/“/g, "\"");  

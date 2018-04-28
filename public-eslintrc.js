@@ -61,7 +61,7 @@ module.exports = {
     /* 强制使用分好而不是ASI */
     "semi": "error",
     /* 允许声明但未使用的变量 */
-    "no-unused-vars": ["warn", {"vars": "local", "args": "none"}],
+    "no-unused-vars": ["off", {"vars": "local", "args": "none"}],
     /* 注释需以空格开头 */
     "spaced-comment": "warn",
     /* 禁止console */

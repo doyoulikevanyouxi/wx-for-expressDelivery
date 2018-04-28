@@ -1,15 +1,15 @@
 let util = require("../../utils/util");
 let appjs = require("../../app.js");
-//获取应用实例
-const app = getApp()
+// 获取应用实例
+const app = getApp();
 
 Page({
   data: {
     userInfo: {},
-    motto: 'Welcome to "快递帮"',
+    motto: "Welcome to 快递帮"
 
     // hasUserInfo: false,
-// -    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    // canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
 
   onLoad: function() {
@@ -30,4 +30,4 @@ Page({
   bindViewTap: function() {
     
   }
-})
+});

@@ -1,10 +1,8 @@
-/**app.wxss**/
-/*
+/*  
  * 全局样式表
  * 使用@import语句导入外联样式表,使用相对路径
  * 注意导入wxss的顺序.
 */
-
 @import "assets/styles/weui.wxss";
 
 page {
@@ -16,13 +14,13 @@ page {
 }
 
 .container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200rpx 0;
+    box-sizing: border-box;
 } 
 
 .clearfix::after {

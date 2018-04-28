@@ -1,0 +1,8 @@
+{
+    "ignoreFiles": ["*.min.css"],
+    "defaultServerity": "error",
+    "extends": ["stylelint-config-standard"],
+    "rules": {
+        "indentation" : 4
+    }
+}
