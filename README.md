@@ -37,6 +37,10 @@ wx-for-expressDelivery/
 ## 新增JSDoc重要注释规范 
 http://shouce.jb51.net/jsdoc/
 
+## 准备添加比目云后端接口
+
+## 在线api接口文档及测试:
+
 ## Eslint:
    安装:npm install -g eslint
    执行:eslint merge.js
