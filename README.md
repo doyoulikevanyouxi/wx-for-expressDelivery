@@ -8,7 +8,7 @@
 ```
 wx-for-expressDelivery/
 	|-assets/						# 静态资源
-		|-images/					
+		|-images/
 		|-plugins/
 		|-styles/
 		|- ...
