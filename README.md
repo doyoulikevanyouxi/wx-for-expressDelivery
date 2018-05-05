@@ -2,7 +2,7 @@
 ## 项目说明:
 - 基于微信小程序开发的一款处理快递业务的类商城项目
 - 暂定"校园快递帮"
-
+- 自定义拓展插件
 ## 目录结构::
 
 ```
@@ -34,6 +34,8 @@ wx-for-expressDelivery/
 
 ##项目参照bootstrap编码规范书写 http://codeguide.bootcss.com/
 
+## 新增JSDoc重要注释规范 http://shouce.jb51.net/jsdoc/
+
 ## Eslint:
    安装:npm install -g eslint
    执行:eslint merge.js
@@ -54,6 +56,8 @@ wx-for-expressDelivery/
 ## 添加gulp打包:
    https://www.jianshu.com/p/c179cb928ae4
    
+## 新增插件页面拦截器 /plugins/wx-request
+
 ##  个人笔记:
 1.思考下在app.js还是index.js处理用户登录和userInfo.
 2.index.js 如何获取 app.js 的全局变量.

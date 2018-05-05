@@ -1,7 +1,11 @@
 /*   项目基本配置  */
 let util = {
-  // 通用loadingToast
-  loadingToast: function(isShow, config) {
+  /**
+   * 通用loadingToast
+   * @param {boolean} [isShow = false] - 判断是显示还是取消
+   * @param {object} config
+   */
+  loadingToast: function(isShow = false, config) {
     if (isShow) {
       wx.showLoading({
         title: config.title || "LoadingToast",
@@ -97,7 +101,10 @@ let util = {
     }
   },
 
-  // 深复制
+  /**
+   * 深复制
+   * @returns {object} newobj - 返回深复制后的新对象
+   */
   deepClone: function(obj) {
     // 判断是数据还是对象
     // eslint-disable-next-line
@@ -118,7 +125,10 @@ let util = {
     
   },
 
-  // 替换中文标点为英文标点
+  /**
+   * 替换中文标点为英文标点
+   * @returns {string} s - 返回过滤中文字符后的字符
+   */
   changeMarkType: function(s) {
     s=s.replace(/：/g, ":");  
     s=s.replace(/。/g, ".");  
