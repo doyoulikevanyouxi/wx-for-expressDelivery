@@ -34,7 +34,8 @@ wx-for-expressDelivery/
 
 ##项目参照bootstrap编码规范书写 http://codeguide.bootcss.com/
 
-## 新增JSDoc重要注释规范 http://shouce.jb51.net/jsdoc/
+## 新增JSDoc重要注释规范 
+http://shouce.jb51.net/jsdoc/
 
 ## Eslint:
    安装:npm install -g eslint
