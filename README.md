@@ -41,6 +41,8 @@ http://shouce.jb51.net/jsdoc/
 
 ## 在线api接口文档及测试:
 
+## 准备添加异常错误捕获机制及记录日志:
+
 ## Eslint:
    安装:npm install -g eslint
    执行:eslint merge.js
