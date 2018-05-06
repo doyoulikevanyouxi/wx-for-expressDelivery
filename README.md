@@ -1,3 +1,4 @@
+##  该分支稍后考虑使用wepy框架重构!
 # wx-for-expressDelivery
 ## 项目说明:
 - 基于微信小程序开发的一款处理快递业务的类商城项目
@@ -34,7 +35,7 @@ wx-for-expressDelivery/
 
 ##项目参照bootstrap编码规范书写 http://codeguide.bootcss.com/
 
-## 新增JSDoc重要注释规范 
+## 新增JSDoc重要注释规范
 http://shouce.jb51.net/jsdoc/
 
 ## 准备添加比目云后端接口
