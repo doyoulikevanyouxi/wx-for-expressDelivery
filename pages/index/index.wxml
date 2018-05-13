@@ -1,20 +1,22 @@
 <!--index.wxml-->
-<view class="container" wx-if="userInfo" style="">
+
+<!-- 未授权,未登录时显示 -->
+<view class="container" wx-if="{{userInfo == undefined && isLoaded == true}}">
+  <p class="reject">您没有授权,我们将无法为您提供服务</p>
+  <button class="authorization" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">点击获取授权</button>
+</view>
+
+<view class="container" wx-if="{{userInfo != undefined && isLoaded == true}}" style="">
   <view class="userinfo">
-    <button wx:if="{{ userInfo === '{}' }}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" style="border: solid 1px red;"></image>
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" style="border: solid 1px white;"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <!-- <view class="features"i>
-    <button>快递帮</button>
+  <view class="features"i>
+    <button class="exD" bind:tap="exD">快递帮</button>
     <button>二手市场</button>
     <button>外卖</button>
     <button>更多</button>
-    <button></button>
-  </view> -->
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
   </view>
 </view>

@@ -1,4 +1,4 @@
-/*  
+/*
  * 全局样式表
  * 使用@import语句导入外联样式表,使用相对路径
  * 注意导入wxss的顺序.
@@ -10,18 +10,19 @@ page {
 	font-size: 32rpx;
 	line-height: 1.6;
 	background-color: #f8f8f8;
-	box-sizing: border-box;  
+	box-sizing: border-box;
 }
 
 .container {
     height: 100%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 200rpx 0;
+    justify-content: space-between; */
+    padding: 120rpx 0;
     box-sizing: border-box;
-} 
+		border: solid 1px red;
+}
 
 .clearfix::after {
 	font-size: 0;

@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/classify/classify",
     "pages/cart/cart",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/expressDelivery/expressDelivery"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,26 +14,28 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color" : "#999",
-    "selectedColor" : "#479de6",
-    "borderStyle" : "white",
-    "backgroundColor" : "#fff",
-    "list" : [{
-      "text" : "主页",
-      "pagePath" : "pages/index/index"
-    },
-    {
-      "text" : "分类",
-      "pagePath" : "pages/classify/classify"
-    },
-    {
-      "text" : "购物车",
-      "pagePath" : "pages/cart/cart"
-    },
-    {
-      "text" : "我的空间",
-      "pagePath" : "pages/user/user"
-    }]
+    "color": "#999",
+    "selectedColor": "#479de6",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "查快递",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "寄快递",
+        "pagePath": "pages/classify/classify"
+      },
+      {
+        "text": "加入派送",
+        "pagePath": "pages/cart/cart"
+      },
+      {
+        "text": "我的空间",
+        "pagePath": "pages/user/user"
+      }
+    ]
   },
-  "debug" : false
+  "debug": false
 }

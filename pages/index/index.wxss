@@ -1,14 +1,24 @@
 /**index.wxss**/
 .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 300rpx;
+  height: 300rpx;
+  border: solid 1px red;
+  margin: 0 auto;
 }
-
+.userinfo image {
+  /* border: solid 1px green; */
+  display: block;
+  margin: 0 auto;
+}
+.userinfo text {
+  /* border: solid 1px green; */
+  display: block;
+  text-align: center;
+}
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
+  /* margin: 20rpx; */
   border-radius: 50%;
 }
 
@@ -18,4 +28,18 @@
 
 .usermotto {
   margin-top: 200px;
+}
+
+/* 授权 */
+.authorization {
+  margin-top: 100rpx;
+  width: 360rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.reject {
+  margin-top: 100rpx;
+  display: block;
+  width: 750rpx;
+  text-align: center;
 }
